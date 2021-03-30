@@ -28,4 +28,4 @@ The function then calculates the portfolio that maximizes returns for his risk a
 The function then outputs the weights for each stock in the optimized portfolio, and the amount of shares needed to buy based off the closing price of the last trading day in our date range
 
 ## Note on Timeframe
-Important to note that we did this analysis on the market **PRE-pandemic**. The market post pandemic is completely different.
+Important to note that we did this analysis on the market **PRE-pandemic**. The market post pandemic has a different volatility and different returns. To calculate this timeframe, we simply need to change the date in the function to pull data up to today's date
